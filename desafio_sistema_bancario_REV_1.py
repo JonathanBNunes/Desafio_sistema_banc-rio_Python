@@ -345,7 +345,7 @@ def criar_cliente(clientes):
     nome = input("Informe o nome completo: ")
     data_nascimento = input("Informe a data de nascimento (dd-mm-aaaa): ")
     endereco = input(
-        "Informe o endereço (logradouro, nro - bairro - cidade/sigla estado): "
+        "Informe o endereço (logradouro, numero - bairro - cidade/sigla estado): "
     )
 
     cliente = PessoaFisica(
